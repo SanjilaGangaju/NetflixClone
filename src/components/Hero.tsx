@@ -10,9 +10,9 @@ const Hero = () => {
     <div className='flex flex-col items-center gap-4'>
         <p className='text-white text-xl'>Ready to watch? Enter your email to create or restart your membership.</p>
         <div className='flex flex-col gap-4 items-center'>
-            <input type="email" placeholder='Email address' className='border rounded p-2 w-70 placeholder:text-white bg-black opacity-50'></input>
+            <input type="email" placeholder='Email address' className='border rounded text-white p-2 w-70 placeholder:text-white bg-black opacity-50'></input>
             <button className='bg-red-600 font-bold text-center text-white p-3 rounded text-xl'>
-                <span>Get started</span>
+                <span>Get started </span>
                 <span>+</span>
             </button>
         </div>
